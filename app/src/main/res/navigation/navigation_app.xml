@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_app"
+    app:startDestination="@id/links">
+
+    <fragment
+        android:id="@+id/links"
+        android:name="com.example.openinapptask.views.fragment.LinksFragment"
+        android:label="Links"
+        tools:layout="@layout/fragment_links" >
+        <action
+            android:id="@+id/action_links_to_allLinksFragment"
+            app:destination="@id/allLinksFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/courses"
+        android:name="com.example.openinapptask.views.fragment.CoursesFragment"
+        android:label="Courses"
+        tools:layout="@layout/fragment_courses" />
+    <fragment
+        android:id="@+id/allLinksFragment"
+        android:name="com.example.openinapptask.views.fragment.AllLinksFragment"
+        android:label="fragment_all_links_fragmwnt"
+        tools:layout="@layout/fragment_all_links_fragmwnt" >
+        <action
+            android:id="@+id/action_allLinksFragment_to_links"
+            app:destination="@id/links" />
+    </fragment>
+    <fragment
+        android:id="@+id/campaign"
+        android:name="com.example.openinapptask.views.fragment.CampaignsFragment"
+        android:label="Campaigns"
+        tools:layout="@layout/fragment_campaigns" />
+    <fragment
+        android:id="@+id/profile"
+        android:name="com.example.openinapptask.views.fragment.ProfileFragment"
+        android:label="Profile"
+        tools:layout="@layout/fragment_profile" />
+</navigation>

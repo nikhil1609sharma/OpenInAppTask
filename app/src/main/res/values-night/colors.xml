@@ -1,0 +1,8 @@
+<resources>
+    <color name="bottom_nav_background">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="gray">#999CA0</color>
+    <color name="selected">#FFFFFF</color>
+</resources>
+

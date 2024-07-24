@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">OpenInAppTask</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="redirected_using_navigation_campaign_page">Redirected Using Navigation(Campaign Page)</string>
+    <string name="redirected_using_navigation_course_page">Redirected Using Navigation(Course Page)</string>
+    <string name="overview">Overview</string>
+</resources>

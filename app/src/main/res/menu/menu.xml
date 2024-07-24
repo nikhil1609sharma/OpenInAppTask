@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:checkableBehavior="all">
+        <item
+            android:id="@+id/links"
+            android:title="Links"
+            android:iconTint="@color/selected"
+            android:icon="@drawable/link" />
+        <item
+            android:id="@+id/courses"
+            android:title="Courses"
+            android:iconTint="@color/selected"
+            android:icon="@drawable/courses"/>
+
+        <item
+            android:title=""/>
+        <item
+            android:id="@+id/campaign"
+            android:title="Campaigns"
+            android:iconTint="@color/selected"
+            android:icon="@drawable/campaign"/>
+
+        <item
+            android:id="@+id/profile"
+            android:title="Profile"
+            android:iconTint="@color/selected"
+            android:icon="@drawable/user5"/>
+
+
+    </group>
+
+</menu>
